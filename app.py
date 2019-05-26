@@ -15,7 +15,7 @@ def echo():
 def hello(name):
     return { 'hello' : name }
 
-@app.route('/rick')
+@app.route('/rickroll')
 def rick():
     return Response(body='',
                     status_code=301,
