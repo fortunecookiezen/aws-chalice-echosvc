@@ -1,6 +1,6 @@
 from chalice import Chalice, Response
 from chalicelib import URL
-app = Chalice(app_name='echosvc')
+app = Chalice(app_name='aws-chalice-echosvc')
 
 @app.route('/')
 def index():
