@@ -3,6 +3,8 @@ poc echo api using AWS chalice microservice framework
 
 experiments with AWS Chalice: https://chalice.readthedocs.io/en/latest/
 
+## Command Line Options:
+
 to create project:
 
     $ chalice new-project --profile _profile_ _projectname_
@@ -18,7 +20,12 @@ to delete:
 to test locally:
 
     $ chalice local
-Service paths:
+
+to create cli deployment cloudformation and zip files:
+
+    $ chalice package _directoryName_
+
+## Service paths:
 
     /
 
