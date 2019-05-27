@@ -1,7 +1,12 @@
 # aws-chalice-echosvc
-poc echo api using AWS chalice microservice framework
+poc echo api using AWS chalice microservice framework. 
 
-experiments with AWS Chalice: https://chalice.readthedocs.io/en/latest/
+[AWS Chalice](https://chalice.readthedocs.io/en/latest/) is a microframework for writing serverless apps in python. It allows you to quickly create and deploy applications that use AWS Lambda. It provides:
+
+* A command line tool for creating, deploying, and managing your app
+* A decorator based API for integrating with Amazon API Gateway, Amazon S3, Amazon SNS, Amazon SQS, and other AWS services.
+* Automatic IAM policy generation
+
 
 ## Command Line Options:
 
@@ -42,3 +47,9 @@ returns Never Gonna Give You Up (duh)
     /hello/{name}
 
 returns "hello $name"
+
+### References:
+
+https://github.com/aws/chalice
+
+https://chalice.readthedocs.io/en/latest/
