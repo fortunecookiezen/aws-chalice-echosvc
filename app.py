@@ -1,5 +1,5 @@
 from chalice import Chalice, Response
-from chalicelib import URL
+import chalicelib.constants
 app = Chalice(app_name='aws-chalice-echosvc')
 
 @app.route('/')
